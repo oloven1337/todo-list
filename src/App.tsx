@@ -1,7 +1,8 @@
 import "./App.css";
+import { TodoList } from "./pages/todo-list/todo-list";
 
 function App() {
-  return <div>todo list</div>;
+  return <TodoList />;
 }
 
 export default App;
